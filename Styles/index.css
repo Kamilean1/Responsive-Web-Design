@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    padding: 10px;
+}
+
+.Logo {
+    padding: 8rem;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10rem;
+    margin-left: 20rem;
+}
+
+.Link {
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 140% */
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 83px;
+    /* identical to box height, or 115% */
+    letter-spacing: -1.6px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    padding: 8rem;
+}
+
+.Main-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    /* or 150% */
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    padding: 8rem;
+    margin-top: -16rem;
+
+}
+
+
+.img {
+    display: flex;
+}
