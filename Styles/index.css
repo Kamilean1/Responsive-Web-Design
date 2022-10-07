@@ -1,16 +1,17 @@
 body {
     background-color: black;
     padding: 10px;
+    width: 100%;
 }
 
 .Logo {
-    padding: 8rem;
+    padding: 5rem;
 }
 
 .Links {
     display: flex;
     flex-direction: row;
-    margin-top: -10rem;
+    margin-top: -97px;
     margin-left: 20rem;
 }
 
@@ -30,33 +31,44 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 72px;
+    font-size: 50px;
     line-height: 83px;
     /* identical to box height, or 115% */
     letter-spacing: -1.6px;
     color: #FFFFFF;
     display: flex;
     align-items: flex-start;
-    padding: 8rem;
+    padding: 5rem;
 }
 
 .Main-text {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 33px;
     /* or 150% */
     text-align: left;
     color: #FFFFFF;
     display: flex;
     align-items: flex-start;
-    padding: 8rem;
-    margin-top: -16rem;
+    padding: 5rem;
+    margin-top: -10rem;
 
 }
 
-
-.img {
+.Photo {
     display: flex;
+    margin-left: 680px;
+    margin-top: -32rem;
+}
+
+@Media only screen and (min-width: 600px) {
+    
+    .Photo {
+        display: flex;
+        padding: 5px;
+    }
+
+
 }
