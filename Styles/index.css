@@ -8,10 +8,29 @@ body {
     padding: 5rem;
 }
 
+.toggle-button {
+    position: absolute;
+    top: 9px;
+    right: 16px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+.toggle-button .Bar {
+    height: 3px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+}
+
 .Links {
     display: flex;
     flex-direction: row;
-    margin-top: -97px;
+    margin-top: -105px;
     margin-left: 20rem;
 }
 
@@ -63,12 +82,52 @@ body {
     margin-top: -32rem;
 }
 
-@Media only screen and (min-width: 600px) {
-    
-    .Photo {
+@Media screen and (max-width: 800px) {
+
+    .Title {
+        font-size: 40px;
         display: flex;
-        padding: 5px;
+        align-items: center;
+        justify-content: center;
     }
 
+    .Links {
+        display: flex;
+        flex-direction: row;
+        margin-top: -97px;
+        margin-left: 28rem;
+    }
 
+    .Main-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Main-text {
+        text-align: center;
+    }
+
+    .Photo {
+        display: flex;
+        margin-left: 5rem;
+        margin-top: 4px;
+    }
+
+}
+
+@Media screen and (max-width: 600px) {
+
+    .toggle-button {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .Links {
+        display: none;
+    }
+
+    .Photo {
+        margin-left: 1px;
+    }
 }
